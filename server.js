@@ -17,7 +17,7 @@ mongoose.connect(dburl, {
   useFindAndModify: false,
 });
 
-  
+  var username = config.get('username');
 
 var client = new Twitter({
     consumer_key: config.get('consumer_key'),
@@ -183,7 +183,7 @@ const followSomeone=()=>{
     
     }
 
-    // get tweets of an user
+    // get tweets of follower
     const Get_tweets=(sname)=>{
         var params = {screen_name: sname};
         client.get('statuses/user_timeline', params, function(error, tweets, response) {
@@ -220,6 +220,7 @@ const followSomeone=()=>{
 followSomeone();
 save_following();
 save_followers();
+Get_tweets(username)
 // getData(urlfg,"followingrep");
 const timer =()=>{
     getData(urlfg,"followingrep")
