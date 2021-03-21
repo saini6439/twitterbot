@@ -11,7 +11,7 @@ npm install
 ```
 Configure mongodb in server.js file
 ```shell
-in my case it's mongodb://localhost:27017/scraper
+in my case it's mongodb://localhost:27017/twitter
 host: localhost
 database name: twitter
 port: 27017
