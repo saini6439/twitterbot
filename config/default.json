@@ -1,0 +1,11 @@
+{
+    "consumer_key": "enter your key",
+    "consumer_secret": "enter your secret key",
+    "access_token_key": "enter your token key",
+    "access_token_secret": "enter your secret key",
+    "bearer_token":"enter bearer token",
+    "userid":"enter your userid"
+    }
+// find your user id using https://codeofaninja.com/tools/find-twitter-id/ website link
+
+    

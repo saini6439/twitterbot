@@ -1,0 +1,21 @@
+{
+  "name": "twitter-assgn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "config": "^3.3.6",
+    "express": "^4.17.1",
+    "get-tweets": "^4.0.0",
+    "get-twitter-info": "^2.0.2",
+    "mongoose": "^5.12.1",
+    "needle": "^2.6.0",
+    "twitter": "^1.7.1"
+  }
+}
