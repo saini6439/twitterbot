@@ -101,7 +101,7 @@ const tweetuser=(usename)=>{
     client.post('statuses/update', { status: mdata }, function(err, data, response) {
         if(!err){
             tdata=new tweetdata()
-            tdata.username='saini6439';
+            tdata.username=username;
             tdata.message=mdata;
             tdata.save((err, doc) => {
             });
